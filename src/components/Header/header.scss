@@ -1,0 +1,33 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.cart-img {
+    max-width: 25px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart-counter {
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    z-index: 1;
+    width: 17px;
+    height: 17px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
