@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import CartSlice from './store/reducers/CartSlice';
+import currencyApi from './store/reducers/currencyApi';
 
 export const store = configureStore({
   reducer: {
-    cart: CartSlice,
+    [currencyApi.reducerPath]: currencyApi.reducer,
   },
 });
 
